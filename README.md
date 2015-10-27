@@ -113,6 +113,9 @@ Enjoy !!
 * Random ship placement
 
 ##Libraries
+###[PubNub](https://www.pubnub.com/)
+Service used for the bidirectional communication
+
 ###[Howler.js](https://github.com/goldfire/howler.js)
 Used in game to play sound effects.
 
