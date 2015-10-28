@@ -43,14 +43,15 @@ In order to install and run the application, you will require the following:
 
 * A free pubnub account ([register here](https://www.pubnub.com/))
 * An Oracle Database 11gR2 or later with Oracle Application Express release 5.0
-  * Be able to connect as SYS usign the SYSDBA role
-  * Network Services Must be Enabled for the Oracle Application Express' user
+  * Be able to connect as SYS using the SYSDBA role
+  * Network services must be enabled for the Oracle Application Express' user
 
 ##Installation
 ###1. Oracle Application Express
 1. Create a new Workspace
 2. Import the battleship application (battleship.sql)
   * The import process will create all of the required database objects (tables, sequences, triggers, packages, etc.)
+    * All of the database objects are prefixed with "BS_"
 
 ###2. Database
 1. Connect to the database where Oracle Application Express is installed as SYS specifying the SYSDBA role.
