@@ -9,8 +9,8 @@ Before play begins, each player secretly arranges their ships on their primary g
 | :----------- | :--: |
 | Carrier      | 5    |
 | Battleship   | 4    |
-| Submarine    | 3    |
 | Cruiser      | 3    |
+| Submarine    | 3    |
 | Destroyer    | 2    |
 
 After the ships have been positioned, the game proceeds in a series of rounds. In each round, each player takes a turn to select a target square in the opponent's grid which is to be shot at. If the targeted square in the opponent's grid is occupied by a ship, it's marked as a hit (red square), otherwise, it's marked as a miss (blue square).
@@ -29,6 +29,7 @@ This game was designed and built to be part of the [ODTUG APEX Gaming Competitio
 * User profile with statistics and game history
 * Game replay
 * Resume unfinished game
+* Dark and light theme
 * Fully integrated with Apex
 * Bidirectional communication
 
