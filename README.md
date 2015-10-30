@@ -74,7 +74,11 @@ You are now ready to go, chat and play with other users.
 Enjoy !!
 
 ##Changelog
+###1.14 Themes
+* Current theme can now be changed in the user's profile
+
 ###1.13 Resume unfinished game with the AI or a user
+* Unfinished games can be resumed from the battleground's user context menu.
 
 ###1.12 New themes
 * Can only be changed from the Theme Roller
