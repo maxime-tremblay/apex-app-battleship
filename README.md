@@ -1,6 +1,5 @@
 #Battleship
-## Current Version
-* v1.14
+Current Version : v1.14
 
 ##Description
 The application is a single and multi-player battleship game entirely made with Oracle Application Express 5.0. 
