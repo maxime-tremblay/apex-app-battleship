@@ -1,4 +1,7 @@
 #Battleship
+## Current Version
+* v1.14
+
 ##Description
 The application is a single and multi-player battleship game entirely made with Oracle Application Express 5.0. 
 The game is played on four grids, two for each player. The grids are 10×10. On one grid the player arranges ships and records of the opponent's shots is shown. On the other grid records of the player's shots are shown.
