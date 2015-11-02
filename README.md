@@ -1,5 +1,5 @@
 #Battleship
-Current Version : v1.14
+Current Version : v1.15
 
 ##Description
 The application is a single and multi-player battleship game entirely made with Oracle Application Express 5.0. 
@@ -66,8 +66,8 @@ In order to install and run the application, you will require the following:
 ###App Settings - Substitution Strings
 * Change the string HOST_URL and HOST_LOCATOR to the actual url of the server.
   * e.g.: `http://max-playground.no-ip.org/ords/f?p=BATTLESHIP`
-    * HOST_URL : `http://max-playground.no-ip.org`
-    * HOST_LOCATOR: `ords`
+    * HOST_URL : `http://max-playground.no-ip.org/`
+    * HOST_LOCATOR: `ords/`
 * Change the string PUBNUB_PUBLISH_KEY with your Pubnub's account publish key
 * Change the string PUBNUB_SUBSCRIBE_KEY with your Pubnub's account subscribe key
 * Change the string APP_FROM_EMAIL with the corresponding Oracle Application Express from email address
@@ -77,6 +77,10 @@ You are now ready to go, chat and play with other users.
 Enjoy !!
 
 ##Changelog
+###1.15 Various fixes
+* Variables encoding
+* Mobile and table layout
+
 ###1.14 Themes
 * Current theme can now be changed in the user's profile
 
@@ -87,7 +91,7 @@ Enjoy !!
 * Can only be changed from the Theme Roller
   * Dark theme (default theme)
   * Light theme
-  
+
 ###1.10 Improved the AI
 * When a ship has been hit, the AI will only try adjacent cells, if the corresponding ship can be placed in a way so that it can be placed on the corresponding adjacent cell
 
