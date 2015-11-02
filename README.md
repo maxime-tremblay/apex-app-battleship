@@ -53,7 +53,7 @@ In order to install and run the application, you will require the following:
 ###1. Oracle Application Express
 1. Create a new Workspace
 2. Import the battleship application (battleship.sql)
-  * The import process will create all of the required database objects (tables, sequences, triggers, packages, etc.)
+  * When promped to install supporting objects, select yes if you need the to create all of the required database objects (tables, sequences, triggers, packages, etc.)
     * All of the database objects are prefixed with "BS_"
 
 ###2. Database
