@@ -1,5 +1,5 @@
 #Battleship
-Current Version : v1.15
+Current Version : v1.16
 
 ##Description
 The application is a single and multi-player battleship game entirely made with Oracle Application Express 5.0. 
@@ -77,7 +77,11 @@ You are now ready to go, chat and play with other users.
 Enjoy !!
 
 ##Changelog
-###1.15 Various fixes
+###1.16 Minor bug fixes
+* Chat messages
+* Chat timestamp
+
+###1.15 Minor bug fixes
 * Variables encoding
 * Mobile and table layout
 
