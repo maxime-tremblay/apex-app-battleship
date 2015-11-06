@@ -1,5 +1,5 @@
 #Battleship
-Current Version : v1.16
+Current Version : v1.17
 
 ##Description
 The application is a single and multi-player battleship game entirely made with Oracle Application Express 5.0. 
@@ -77,6 +77,9 @@ You are now ready to go, chat and play with other users.
 Enjoy !!
 
 ##Changelog
+###1.17 Game Interface
+* Switch player's and oppennent's grid to improve the mobile interface
+
 ###1.16 Minor bug fixes
 * Chat messages
 * Chat timestamp
@@ -148,3 +151,23 @@ Used in the user profile
 ##License
 This application is under MIT License
 [LICENSE](https://github.com/maxime-tremblay/apex-battleship/blob/master/LICENSE)
+
+##Screenshots
+![Home: Dark Theme](/screenshot/Home.png)
+![Profile: Dark Theme](/screenshot/Profile-Dark.png)
+![Profile: Light Theme](/screenshot/Profile-Light.png)
+![Replay: Dark Theme](/screenshot/Replay-Dark.png)
+![Replay: Light Theme](/screenshot/Replay-Light.png)
+![Chat: Dark Theme](/screenshot/Chat-Dark.png)
+![Chat: Light Theme](/screenshot/Chat-Light.png)
+![Chat: Light Theme - Mobile](/screenshot/Chat-Light-Mobile.png)
+![Game: Dark Theme](/screenshot/Game1-Dark.png)
+![Game: Light Theme](/screenshot/Game1-Light.png)
+![Game: Light Theme - Mobile](/screenshot/Game1-Light-Mobile.png)
+![Game: Dark Theme](/screenshot/Game2-Dark.png)
+![Game: Dark Theme](/screenshot/Game3-Dark.png)
+![Game: Light Theme](/screenshot/Game3-Light.png)
+![Game: Light Theme - Mobile](/screenshot/Game3-Light-Mobile.png)
+![Victory/Defeat: Dark Theme](/screenshot/Game4-Dark.png)
+![Victory/Defeat: Light Theme](/screenshot/Game4-Light.png)
+![Victory/Defeat: Light Theme - Mobile](/screenshot/Game4-Light-Mobile.png)
