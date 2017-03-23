@@ -1,7 +1,7 @@
-#Battleship
+# Battleship
 Current Version : v1.17
 
-##Description
+## Description
 The application is a single and multi-player battleship game entirely made with Oracle Application Express 5.0. 
 The game is played on four grids, two for each player. The grids are 10×10. On one grid the player arranges ships and records of the opponent's shots is shown. On the other grid records of the player's shots are shown.
 
@@ -21,7 +21,7 @@ When all of the squares of a ship have been hit, the ship is sunk. If all of a p
 
 This game was designed and built to be part of the [ODTUG APEX Gaming Competition 2015](http://competition.odtug.com/).
 
-##Game Features
+## Game Features
 * Play against other user
 * Play against the AI
 * Desktop, tablet and smartphone compatible
@@ -35,13 +35,13 @@ This game was designed and built to be part of the [ODTUG APEX Gaming Competitio
 * Fully integrated with Apex
 * Bidirectional communication
 
-##Demo
+## Demo
 A demo application is available at:
 http://max-playground.no-ip.org/ords/f?p=BATTLESHIP
 
 You will have to create an account and login using your email address.
 
-##Requirements
+## Requirements
 In order to install and run the application, you will require the following:
 
 * A free pubnub account ([register here](https://www.pubnub.com/))
@@ -49,21 +49,21 @@ In order to install and run the application, you will require the following:
   * Be able to connect as SYS using the SYSDBA role
   * Network services must be enabled for the Oracle Application Express' user
 
-##Installation
-###1. Oracle Application Express
+## Installation
+### 1. Oracle Application Express
 1. Create a new Workspace
 2. Import the battleship application (battleship.sql)
   * When promped to install supporting objects, select yes if you need the to create all of the required database objects (tables, sequences, triggers, packages, etc.)
     * All of the database objects are prefixed with "BS_"
 
-###2. Database
+### 2. Database
 1. Connect to the database where Oracle Application Express is installed as SYS specifying the SYSDBA role.
  * Grant to dbms_crypto (needed for password encryption/decryption in the app)
 
 > grant execute on sys.dbms_crypto to APP_SCHEMA;
 
-##Configuration
-###App Settings - Substitution Strings
+## Configuration
+### App Settings - Substitution Strings
 * Change the string HOST_URL and HOST_LOCATOR to the actual url of the server.
   * e.g.: `http://max-playground.no-ip.org/ords/f?p=BATTLESHIP`
     * HOST_URL : `http://max-playground.no-ip.org/`
@@ -76,83 +76,83 @@ You are now ready to go, chat and play with other users.
 
 Enjoy !!
 
-##Changelog
-###1.17 Game Interface
+## Changelog
+### 1.17 Game Interface
 * Switch player's and oppennent's grid to improve the mobile interface
 
-###1.16 Minor bug fixes
+### 1.16 Minor bug fixes
 * Chat messages
 * Chat timestamp
 
-###1.15 Minor bug fixes
+### 1.15 Minor bug fixes
 * Variables encoding
 * Mobile and table layout
 
-###1.14 Themes
+### 1.14 Themes
 * Current theme can now be changed in the user's profile
 
-###1.13 Resume unfinished game with the AI or a user
+### 1.13 Resume unfinished game with the AI or a user
 * Unfinished games can be resumed from the battleground's user context menu.
 
-###1.12 New themes
+### 1.12 New themes
 * Can only be changed from the Theme Roller
   * Dark theme (default theme)
   * Light theme
 
-###1.10 Improved the AI
+### 1.10 Improved the AI
 * When a ship has been hit, the AI will only try adjacent cells, if the corresponding ship can be placed in a way so that it can be placed on the corresponding adjacent cell
 
-###1.10 AI implementation
+### 1.10 AI implementation
 
-###1.09 Presence detection
+### 1.09 Presence detection
 * User leaves or joins the chat
 * User leaves a game
 
-###1.08 Security enhancement
+### 1.08 Security enhancement
 * Make sure it's the player's turn when making a move
 * Make sure the ship has not been placed already when placing a ship
 
-###1.07 Tablet and smartphone adjustments
+### 1.07 Tablet and smartphone adjustments
 
-###1.06 Game replay from the game history
+### 1.06 Game replay from the game history
 
-###1.05 Statistics page with game history
+### 1.05 Statistics page with game history
 
-###1.04 Sound effects when a hit/miss 
+### 1.04 Sound effects when a hit/miss 
 
-###1.03 Drag and drop ship placement
+### 1.03 Drag and drop ship placement
 
-###1.02 Retrieve and show game progress
+### 1.02 Retrieve and show game progress
 * When a user refreshes the page while in a game
 
-###1.01 Manual ship placement
+### 1.01 Manual ship placement
 
-###1.00 Initial release
+### 1.00 Initial release
 * Basic chat
 * Random ship placement
 
-##Libraries
-###[PubNub](https://www.pubnub.com/)
+## Libraries
+### [PubNub](https://www.pubnub.com/)
 Service used for the bidirectional communication
 
-###[Howler.js](https://github.com/goldfire/howler.js)
+### [Howler.js](https://github.com/goldfire/howler.js)
 Used in game to play sound effects.
 
-###[jQuery-contextMenu](https://github.com/swisnl/jQuery-contextMenu)
+### [jQuery-contextMenu](https://github.com/swisnl/jQuery-contextMenu)
 Used in the chat to have a context menu on the user list.
 
-###[Notify.js](http://notifyjs.com)
+### [Notify.js](http://notifyjs.com)
 Used in game to show notifications.
 
-##Oracle Application Express Plugin
-###[Select2](https://github.com/nbuytaert1/apex-select2)
+## Oracle Application Express Plugin
+### [Select2](https://github.com/nbuytaert1/apex-select2)
 Used in the user profile
 
-##License
+## License
 This application is under MIT License
 [LICENSE](https://github.com/maxime-tremblay/apex-battleship/blob/master/LICENSE)
 
-##Screenshots
+## Screenshots
 ![Home: Dark Theme](/screenshots/Home.png)
 ![Profile: Dark Theme](/screenshots/Profile-Dark.png)
 ![Profile: Light Theme](/screenshots/Profile-Light.png)
